@@ -13,11 +13,24 @@ content.textContent = 'Lorem ipsum, etc.';
 // container.appendChild(content);
 
 // Make it appear on button click only
-
 document.getElementById('magic').onclick = function(){myFunction()};
 
 function myFunction() {
   document.getElementById('magic').innerHTML = "Magic!";
   container.appendChild(content);
+  container.appendChild(red)
+  container.appendChild(h3)
 }
 
+
+// Excercise 
+
+// Add <p>
+const red = document.createElement('p');
+red.classList.add('redText');
+red.textContent = 'Hey, I\'m red!';
+red.style.color = 'red';
+
+const h3 = document.createElement('h3');
+h3.textContent = 'I\'m blue!';
+h3.style.color = 'blue';
