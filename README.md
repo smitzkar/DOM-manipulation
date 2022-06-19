@@ -6,3 +6,6 @@ Update: it did. But was an easy fix.
 didn't save all my stuff!!  
 check out mit-emilia.de for job/internship.  
 
+## Idea for applying to job  
+take a look at their website code and try and fix something or make a suggestion on how you might help improve things. An easy way might be to check accessibility?  
+-> something a company might actually want to implement, instead of something I just prefer to do differently than what they've already done -> might be seen as a dick  
