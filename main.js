@@ -10,4 +10,14 @@ content.classList.add('content');
 content.textContent = 'Lorem ipsum, etc.';
 
 // Append new div to container  
-container.appendChild(content);
+// container.appendChild(content);
+
+// Make it appear on button click only
+
+document.getElementById('magic').onclick = function(){myFunction()};
+
+function myFunction() {
+  document.getElementById('magic').innerHTML = "Magic!";
+  container.appendChild(content);
+}
+
