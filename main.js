@@ -18,8 +18,9 @@ document.getElementById('magic').onclick = function(){myFunction()};
 function myFunction() {
   document.getElementById('magic').innerHTML = "Magic!";
   container.appendChild(content);
-  container.appendChild(red)
-  container.appendChild(h3)
+  container.appendChild(red);
+  container.appendChild(h3);
+  container.appendChild(black);
 }
 
 
@@ -34,3 +35,14 @@ red.style.color = 'red';
 const h3 = document.createElement('h3');
 h3.textContent = 'I\'m blue!';
 h3.style.color = 'blue';
+
+const black = document.createElement('div');
+black.style.backgroundColor = 'pink';
+black.style.border = '5px solid black';
+const h1 = document.createElement('h1');
+h1.textContent = 'I\'m in a div';
+const p = document.createElement('p');
+p.textContent = 'ME TOO';
+
+black.appendChild(h1);
+black.appendChild(p);
