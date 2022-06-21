@@ -21,7 +21,11 @@ function myFunction() {
   container.appendChild(red);
   container.appendChild(h3);
   container.appendChild(black);
+  simpleGame();
 }
+
+
+
 
 
 // Excercise 
@@ -46,3 +50,23 @@ p.textContent = 'ME TOO';
 
 black.appendChild(h1);
 black.appendChild(p);
+
+// add button  
+const choice = document.createElement('button');
+choice.textContent = "Click me";
+black.appendChild(choice);
+
+function simpleGame()
+{
+  decision = null;
+  if (decision === null) {
+    console.log(decision);
+  }
+}
+
+// onclick function when newly created button is pressed
+choice.addEventListener('click', () =>
+{
+  // change button text
+  choice.textContent = "That tickles!"
+})
