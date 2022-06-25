@@ -58,7 +58,7 @@ black.appendChild(choice);
 
 function simpleGame()
 {
-  decision = null;
+  decision = null; 
   if (decision === null) {
     console.log(decision);
   }
